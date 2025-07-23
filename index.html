@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasiera</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hasiera" class="lang" data-key="home">HASIERA</a></li>
+                <li><a href="#dokumentuak" class="lang" data-key="documents">DOKUMENTUAK</a></li>
+                <li><a href="#kontaktua" class="lang" data-key="contact">KONTAKTUA</a></li>
+            </ul>
+            <div class="language-switcher">
+                <button onclick="setLanguage('eu')">EU</button>
+                <button onclick="setLanguage('es')">ES</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hasiera">
+            <h1 class="lang" data-key="home-title">Ongi etorri</h1>
+            <p class="lang" data-key="home-desc">Hemen asteko edukia jarriko da erraz.</p>
+        </section>
+
+        <section id="dokumentuak">
+            <h2 class="lang" data-key="documents-title">Dokumentuak</h2>
+            <ul>
+                <li><a href="docs/adibidea.pdf" target="_blank">Adibidezko dokumentua (PDF)</a></li>
+            </ul>
+        </section>
+
+        <section id="kontaktua">
+            <h2 class="lang" data-key="contact-title">Kontaktua</h2>
+            <p class="lang" data-key="contact-desc">Jar zaitez gurekin harremanetan.</p>
+        </section>
+    </main>
+
+    <script src="js/lang.js"></script>
+</body>
+</html>
