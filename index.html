@@ -1,45 +1,39 @@
 <!DOCTYPE html>
 <html lang="eu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hasiera</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hasiera</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#hasiera" class="lang" data-key="home">HASIERA</a></li>
-                <li><a href="#dokumentuak" class="lang" data-key="documents">DOKUMENTUAK</a></li>
-                <li><a href="#kontaktua" class="lang" data-key="contact">KONTAKTUA</a></li>
-            </ul>
-            <div class="language-switcher">
-                <button onclick="setLanguage('eu')">EU</button>
-                <button onclick="setLanguage('es')">ES</button>
-            </div>
-        </nav>
-    </header>
+  <header>
+    <div class="top-bar">
+      <div class="left">
+        <img src="img/logo.png" alt="Logoa" class="logo" />
+      </div>
+      <nav class="center">
+        <a href="index.html" class="active">Hasiera</a>
+        <a href="dokumentuak.html">Dokumentuak</a>
+        <a href="kontaktua.html">Kontaktuak</a>
+        <a href="aholkuak.html">Aholkuak</a>
+      </nav>
+      <div class="right">
+        <a href="index_es.html" class="lang-switch">ES</a>
+        <a href="https://instagram.com/etxesindikatua" target="_blank">Instagram</a>
+        <a href="mailto:etxebizitzasindikatua@kontseilusozialista.net">Email</a>
+      </div>
+    </div>
+  </header>
 
-    <main>
-        <section id="hasiera">
-            <h1 class="lang" data-key="home-title">Ongi etorri</h1>
-            <p class="lang" data-key="home-desc">Hemen asteko edukia jarriko da erraz.</p>
-        </section>
+  <div class="franja-naranja"></div>
 
-        <section id="dokumentuak">
-            <h2 class="lang" data-key="documents-title">Dokumentuak</h2>
-            <ul>
-                <li><a href="docs/adibidea.pdf" target="_blank">Adibidezko dokumentua (PDF)</a></li>
-            </ul>
-        </section>
-
-        <section id="kontaktua">
-            <h2 class="lang" data-key="contact-title">Kontaktua</h2>
-            <p class="lang" data-key="contact-desc">Jar zaitez gurekin harremanetan.</p>
-        </section>
-    </main>
-
-    <script src="js/lang.js"></script>
+  <main>
+    <section class="hero">
+      <h1>Kalitatezko etxebizitza, doakoa eta unibertsalarena</h1>
+      <p class="sub">Estatu Sozialista eraiki</p>
+      <img src="img/portada.jpg" alt="Portada" class="hero-image">
+    </section>
+  </main>
 </body>
 </html>
